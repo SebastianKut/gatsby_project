@@ -1,8 +1,9 @@
 import React from "react"
+import Layout from "../components/Layout"
 
-function contact() {
+function Contact() {
   return (
-    <div>
+    <Layout>
       <h1>Get in touch</h1>
       <p>Drop me a line test@email.com</p>
       <p>
@@ -11,8 +12,8 @@ function contact() {
           @seb_qt
         </a>
       </p>
-    </div>
+    </Layout>
   )
 }
 
-export default contact
+export default Contact

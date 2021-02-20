@@ -1,16 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/Layout"
 
-function about() {
+function About() {
   return (
-    <div>
+    <Layout>
       <h1>About Me</h1>
       <p>Some info about me</p>
       <p>
         Want to work with me? <Link to="/contact">Reach out</Link>{" "}
       </p>
-    </div>
+    </Layout>
   )
 }
 
-export default about
+export default About

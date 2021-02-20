@@ -1,16 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/Layout"
 
-function index() {
+function Index() {
   return (
-    <div>
+    <Layout>
       <h1>Hello</h1>
       <h2>I'm Seb. Full-stack developer</h2>
       <p>
         Need a developer? <Link to="/contact">Contact me</Link>
       </p>
-    </div>
+    </Layout>
   )
 }
 
-export default index
+export default Index
