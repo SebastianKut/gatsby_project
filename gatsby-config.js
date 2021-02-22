@@ -10,5 +10,15 @@ module.exports = {
     title: "Gatsby page!",
     author: "Sebastian Kut",
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }
