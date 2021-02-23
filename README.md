@@ -98,5 +98,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Finished at 2:19
+Finished at 3:03
 https://www.youtube.com/watch?v=8t0vNu2fCCM
